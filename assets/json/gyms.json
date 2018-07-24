@@ -1,0 +1,110 @@
+[
+    {
+      "name": "Mudo Vestby",
+      "chain": "Mudo",
+      "sted": "Vestby",
+      "adresse": "Senterveien 10, Vestby Storsenter",
+      "lat": 59.604105,
+      "lon": 10.742887,
+      "hours": "05:00 - 23:30",
+      "prices": 299,
+      "id": "c9sdcjs",
+      "link": "https://mudo.no"
+    },
+    {
+      "name": "Mudo Sandvika",
+      "chain": "Mudo",
+      "sted": "Sandvika",
+      "adresse": "Malmskriverveien 11 b, 1337 Sandvika",
+      "lat": 59.892589,
+      "lon": 10.527152,
+      "hours": "06:00 - 21:30",
+      "prices": 299,
+      "id": "s9c0s9ds",
+      "link": "https://mudo.no"
+    },
+    {
+      "name": "Mudo Lørenskog",
+      "chain": "Mudo",
+      "sted": "Lørenskog",
+      "adresse": "Gamleveien 88, 1476 Rasta",
+      "lat": 59.919469,
+      "lon": 10.953142,
+      "hours": "06:00 - 21:30",
+      "prices": 299,
+      "id": "s8csd9",
+      "link": "https://mudo.no"
+    },
+    {
+        "name": "Mudo Furuset",
+        "chain": "Mudo",
+        "sted": "Furuset",
+        "adresse": "Trygve Lies Plass 1",
+        "lat": 59.942060,
+        "lon": 10.897606,
+        "hours": "06:00 - 23:00",
+        "prices": 299,
+        "id": "s8sdcsscsdcd9",
+        "link": "https://furuset.mudo.no/"
+    },
+    {
+        "name": "Mudo Nordstrand",
+        "chain": "Mudo",
+        "sted": "Nordstrand",
+        "adresse": "Rachvei 38",
+        "lat": 59.879883,
+        "lon": 10.804128,
+        "hours": "06:00 - 23:00",
+        "prices": 299,
+        "id": "ss9cds9",
+        "link": "https://nordstrand.mudo.no/"
+    },
+    {
+        "name": "Mudo Prinsdal",
+        "chain": "Mudo",
+        "sted": "Prinsdal",
+        "adresse": "Nedre Prinsdalsvei 79",
+        "lat": 59.833071,
+        "lon": 10.806946,
+        "hours": "06:00 - 23:00",
+        "prices": 299,
+        "id": "sasciocds9",
+        "link": "https://prinsdal.mudo.no/"
+    },
+    {
+        "name": "Mudo Torshov",
+        "chain": "Mudo",
+        "sted": "Torshov",
+        "adresse": "Sandakerveien 59 b",
+        "lat": 59.937983,
+        "lon": 10.768275,
+        "hours": "06:00 - 23:00",
+        "prices": 299,
+        "id": "vsdsdc9sdcds9",
+        "link": "https://torshov.mudo.no/"
+    },
+    {
+        "name": "Mudo Tveita",
+        "chain": "Mudo",
+        "sted": "Tveita",
+        "adresse": "Tvetenveien 162",
+        "lat": 59.915206,
+        "lon": 10.846482,
+        "hours": "06:00 - 23:00",
+        "prices": 299,
+        "id": "vsdvscds9",
+        "link": "https://tveita.mudo.no/"
+    },
+    {
+        "name": "Mudo Ulsrud",
+        "chain": "Mudo",
+        "sted": "Ulsrud",
+        "adresse": "John G. Mattesonsvei 4",
+        "lat": 59.891417,
+        "lon": 10.853922,
+        "hours": "06:00 - 23:00",
+        "prices": 299,
+        "id": "scsdcsd",
+        "link": "https://ulsrud.mudo.no/"
+    }
+]
