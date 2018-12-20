@@ -3,8 +3,10 @@ import axios from 'axios'
 
 export default {
   getLatLong: function(address) {
-    const gmapkey = process.env.googleMapsApiKey;
-    const reqUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}+NO&key=${gmapkey}`;
+    let gmapkey = process.env.googleMapsApiKey;
+    let reqUrl = 'https://maps.googleapis.com/maps/api/geocode/json?address='+address+'+NO&key='+gmapkey;
+
+    console.log(gmapkey,reqUrl);
   
     return new Promise(function(resolve,reject) {
     

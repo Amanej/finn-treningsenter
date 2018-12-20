@@ -1,10 +1,6 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        <app-logo/>
-        Finn Ditt Treningsenter
-      </h1>
       <h2 class="subtitle">
         Et nettside hvor du kan finne nærmeste treningssenter
       </h2>
@@ -27,14 +23,15 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
 import gym from '@/components/gym.vue'
 import gymData from '@/assets/json/gyms.json'
 import mapfunctions from '@/middleware/mapfunctions.js'
 
+import migrate from '@/plugins/migrate.js'
+
+
 export default {
   components: {
-    AppLogo,
     gym
   },
   methods: {
@@ -52,6 +49,9 @@ export default {
           var closestGym = mapfunctions.closestLatLong(queryLatLong,allgyms);
           app.parsedGyms = [closestGym];
         });
+    },
+    migrate: () => {
+      migrate.migrateData();
     }
   },
   data: function() {
@@ -73,6 +73,14 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.container > div {
+  width: 60%;
+}
+
+.gyms {
+  width: 100%;
 }
 
 .title {
